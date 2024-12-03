@@ -36,7 +36,7 @@ namespace RimsecSecurity
                 {
                     comp.Notify_ProjectileLaunched();
                 }
-                CompReloadable comp2 = base.EquipmentSource.GetComp<CompReloadable>();
+                CompApparelReloadable comp2 = base.EquipmentSource.GetComp<CompApparelReloadable>();
                 if (comp2 != null)
                 {
                     comp2.UsedOnce();
@@ -90,7 +90,7 @@ namespace RimsecSecurity
             ThingDef targetCoverDef = (randomCoverToMissInto != null) ? randomCoverToMissInto.def : null;
             if (!Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
-                shootLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget);
+                shootLine.ChangeDestToMissWild_NewTemp(shotReport.AimOnTargetChance_StandardTarget, false, this.caster.Map);
                 this.ThrowDebugText("ToWild" + (this.canHitNonTargetPawnsNow ? "\nchntp" : ""));
                 this.ThrowDebugText("Wild\nDest", shootLine.Dest);
                 ProjectileHitFlags projectileHitFlags2 = ProjectileHitFlags.NonTargetWorld;

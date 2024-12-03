@@ -36,3 +36,9 @@ dpren (freesound.org) - HAAC Sound
 Breviceps (freedound.org) - Shag Sound  
 Badman - CE compatibility patch  
 Jecrell - CompOversizedWeapon.dll  
+
+
+## Building
+- Must be placed in the Rimworld mods folder
+- use `FrameworkPathOverride=$(dirname $(which mono))/../lib/mono/4.7.2-api/ dotnet build /property:Configuration=Release` to run on linux
+  - If you arent on linux change RimWorldLinux_Data to the correct name for your platform.

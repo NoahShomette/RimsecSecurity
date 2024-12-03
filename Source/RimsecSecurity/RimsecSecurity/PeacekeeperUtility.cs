@@ -47,11 +47,11 @@ namespace RimsecSecurity
             var batteryHediff = HediffMaker.MakeHediff(RSDefOf.RSPeacekeeperBattery, robot);
             robot.health.AddHediff(batteryHediff, PeacekeeperUtility.GetTorso(robot), null, null);
             batteryHediff.Severity = robotModExt.batterySeverity;
-            var allowedTraits = (robot.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.forcedRaceTraitEntries?.Select(entry => entry.defName)?.ToList();
+            var allowedTraits = (robot.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.forcedRaceTraitEntries?.Select(entry => entry.entry)?.ToList();
             if (allowedTraits != null && allowedTraits.Count != 0)
             {
                 foreach (var trait in robot.story.traits.allTraits.Reverse<Trait>()) robot.story.traits.allTraits.Remove(trait);
-                foreach (var trait in allowedTraits) robot.story.traits.GainTrait(new Trait(trait));
+                foreach (var trait in allowedTraits) robot.story.traits.GainTrait(new Trait(trait.def));
             }
 
             robot.playerSettings.hostilityResponse = HostilityResponseMode.Attack;

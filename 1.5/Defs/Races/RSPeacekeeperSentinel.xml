@@ -61,6 +61,7 @@
       </lifeStageAges>
       <baseBodySize>2</baseBodySize>
       <baseHealthScale>3</baseHealthScale>
+      <renderTree>Humanlike</renderTree>
       <nameGenerator>RSPeacekeeperSentinelNameGen</nameGenerator>
     </race>
     <modExtensions>

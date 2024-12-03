@@ -124,7 +124,7 @@ namespace RimsecSecurity
         public static bool WorkSettings_InitWorkSettings_Prefix(Pawn pawn)
         {
             if (!PeacekeeperUtility.IsPeacekeeper(pawn)) return true;
-            if (pawn?.playerSettings?.AreaRestriction != null) pawn.playerSettings.AreaRestriction = null;
+            //if (pawn?.playerSettings?.allowedAreas != null) pawn.playerSettings.AreaRestrictionInPawnCurrentMap = null; TODONOAH: See if this is needed, disabled to try and get mod working
             return false;
         }
 

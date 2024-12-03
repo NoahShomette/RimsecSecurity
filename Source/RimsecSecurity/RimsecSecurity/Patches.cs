@@ -232,7 +232,6 @@ namespace RimsecSecurity
                 Log.Warning($"Could not find GetLabelFor code instruction; skipping changes");
                 return instructions;
             }
-
             codes[idx].operand = AccessTools.Method(typeof(PawnCapacityDef), "GetLabelFor", new Type[] { typeof(Pawn) });
             codes.RemoveRange(idx - 7, 7);
 
@@ -472,11 +471,11 @@ namespace RimsecSecurity
         }
     }
 
-    [HarmonyPatch(typeof(MemoryThoughtHandler), "TryGainMemory", new Type[] { typeof(ThoughtDef), typeof(Pawn), typeof(Precept) })]
+    [HarmonyPatch(typeof(MemoryThoughtHandler), "TryGainMemory", new Type[] { typeof(TaleDef), typeof(Pawn), typeof(Precept) })]
     public class MemoryThoughtHandler_TryGainMemory
     {
-        public static ThoughtDef[] badThoughts = new[] { ThoughtDefOf.ButcheredHumanlikeCorpse, ThoughtDefOf.KnowButcheredHumanlikeCorpse };
-        public static bool Prefix(MemoryThoughtHandler __instance, ThoughtDef def, Pawn otherPawn = null)
+        public static TaleDef[] badThoughts = new[] { TaleDefOf.ButcheredHumanlikeCorpse };
+        public static bool Prefix(MemoryThoughtHandler __instance, TaleDef def, Pawn otherPawn = null)
         {
             if (ModSettings.butcheredPeacekeeper && badThoughts.Contains(def)) return false;
             return true;
