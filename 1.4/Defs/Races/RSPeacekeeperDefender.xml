@@ -32,7 +32,7 @@
         </alienPartGenerator>
       </generalSettings>
       <graphicPaths>
-        <skinShader>CutoutSkin</skinShader>
+        <skinShader>Cutout</skinShader>
       </graphicPaths>
       <raceRestriction>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
