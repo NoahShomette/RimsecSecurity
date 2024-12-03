@@ -23,9 +23,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ./Source/RimsecSecurity --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test ./Source/RimsecSecurity --no-build --verbosity normal
       # Commits if anything new was changed
     - name: Commit
       id: commit
