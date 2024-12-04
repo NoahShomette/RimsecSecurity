@@ -75,7 +75,6 @@
       </lifeStageAges>
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>2</baseHealthScale>
-      <renderTree>Humanlike</renderTree>
       <nameGenerator>RSPeacekeeperEnforcerNameGen</nameGenerator>
     </race>
     <statBases>

@@ -233,7 +233,7 @@ namespace RimsecSecurity
                 return instructions;
             }
             codes[idx].operand = AccessTools.Method(typeof(PawnCapacityDef), "GetLabelFor", new Type[] { typeof(Pawn) });
-            codes.RemoveRange(idx - 7, 7);
+            //codes.RemoveRange(idx /*- 7 removed the - 7 to see if removing the range is the desired goal*/, 7);
 
             return codes;
         }
@@ -471,16 +471,17 @@ namespace RimsecSecurity
         }
     }
 
-    [HarmonyPatch(typeof(MemoryThoughtHandler), "TryGainMemory", new Type[] { typeof(TaleDef), typeof(Pawn), typeof(Precept) })]
-    public class MemoryThoughtHandler_TryGainMemory
-    {
-        public static TaleDef[] badThoughts = new[] { TaleDefOf.ButcheredHumanlikeCorpse };
-        public static bool Prefix(MemoryThoughtHandler __instance, TaleDef def, Pawn otherPawn = null)
-        {
-            if (ModSettings.butcheredPeacekeeper && badThoughts.Contains(def)) return false;
-            return true;
-        }
-    }
+    // TODONOAH - Removed this as I'm not sure how to convert this to the new system
+    // [HarmonyPatch(typeof(MemoryThoughtHandler), "TryGainMemory", new Type[] { typeof(TaleDef), typeof(Pawn), typeof(Precept) })]
+    // public class MemoryThoughtHandler_TryGainMemory
+    // {
+    //     public static TaleDef[] badThoughts = new[] { TaleDefOf.ButcheredHumanlikeCorpse };
+    //     public static bool Prefix(MemoryThoughtHandler __instance, TaleDef def, Pawn otherPawn = null)
+    //     {
+    //         if (ModSettings.butcheredPeacekeeper && badThoughts.Contains(def)) return false;
+    //         return true;
+    //     }
+    // }
 
     [HarmonyPatch(typeof(Corpse), "GiveObservedThought")]
     public class Corpse_GiveObservedThought

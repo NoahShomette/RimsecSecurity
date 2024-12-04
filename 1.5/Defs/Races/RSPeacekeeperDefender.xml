@@ -70,7 +70,6 @@
       </lifeStageAges>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <renderTree>Humanlike</renderTree>
       <nameGenerator>RSPeacekeeperDefenderNameGen</nameGenerator>
     </race>
     <statBases>
