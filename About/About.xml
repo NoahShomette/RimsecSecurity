@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rimsec Security</name>
-	<author>Shakesthespeare, iforgotmysocks</author>
+	<name>Rimsec Security Continued</name>
+	<author>Shakesthespeare, iforgotmysocks, NoahS</author>
 	<url></url>
   <supportedVersions>
     <li>1.2</li>
@@ -22,9 +22,11 @@
       <downloadUrl>https://github.com/erdelf/AlienRaces/wiki</downloadUrl>
     </li>
   </modDependencies>
-  <packageId>shakesthespeare.RimsecSecurity</packageId>
+  <packageId>NoahS.RimsecSecurityContinued</packageId>
 	<description>
 [Version 3.0.0]
+
+RimsecSecurityContinued is a continued version of RimsecSecurity while the original authors develop an updated and improved edition.
     
 As of now Rimsec Security offers 3 robots, 3 guns, 3 turrets, 1 maintenance station, 1 assembly bench, 1 trade ship (SRS trade ship) and 1 unique component.
  
