@@ -42,6 +42,14 @@
         <whiteApparelList>
         </whiteApparelList>
       </raceRestriction>
+      <thoughtSettings>
+      <!-- <cannotReceiveThoughts>
+        <butcherThoughtGeneral>
+          <thought>ButcheredHumanlikeCorpse</thought>
+          <knowThought>KnowButcheredHumanlikeCorpse</knowThought>
+        </butcherThoughtGeneral>
+      </cannotReceiveThoughts> -->
+      </thoughtSettings>
     </alienRace>
     <modExtensions>
       <li Class="RimsecSecurity.RSPeacekeeperModExt">
@@ -56,7 +64,7 @@
     <race>
       <lifeStageAges>
         <li>
-          <def>MechanoidFullyFormed</def>
+          <def>RSPeacekeeperDefender</def>
           <minAge>0</minAge>
         </li>
       </lifeStageAges>
@@ -147,9 +155,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Defender/Defender_Security/</head>
           <body>Races/Body/Defender/Defender_Security/</body>
-          <!--<lifeStageDefs>
-            <li>HumanlikeAdult</li>
-          </lifeStageDefs>-->
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
       </graphicPaths>
     </alienRace>
     <race>
@@ -173,6 +180,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Defender/Defender_Forest/</head>
           <body>Races/Body/Defender/Defender_Forest/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
       </graphicPaths>
     </alienRace>
     <race>
@@ -196,6 +205,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Defender/Defender_Desert/</head>
           <body>Races/Body/Defender/Defender_Desert/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
       </graphicPaths>
     </alienRace>
     <race>
@@ -219,6 +230,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Defender/Defender_Winter/</head>
           <body>Races/Body/Defender/Defender_Winter/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
       </graphicPaths>
     </alienRace>
     <race>

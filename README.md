@@ -1,8 +1,10 @@
-# RimsecSecurity
+# RimsecSecurityContinued
 
-RimsecSecurity is now released. Please report bugs and possible mod incompatibilities. As always when trying new mods, backup your saves! Thanks guys.
+RimsecSecurityContinued is a continued version of RimsecSecurity while the original authors develop an updated and improved edition.
 
-# Mod description
+--- Original Description
+
+## Mod description
 As of now Rimsec Security offers 3 robots, 3 guns, 3 turrets, 1 maintenance station, 1 assembly bench, 1 trade ship (SRS trade ship) and 1 unique component.
 
 The 3 robots are the defender, enforcer and sentinel. The defender is a basic robot that has sufficient skills and power to defend a base and is not recommended for escorting caravans. The enforcer is a more advanced robot that has the sufficient skills and power for a more aggressive doctrine. Lastly, the Sentinel is an advanced heavy robot that is utilised in a supporting role featuring high health, battery capacity and is considered to be quite strong.
@@ -20,15 +22,17 @@ The SRS Processing Unit (unique component) which is a requirement to build SRS R
 
 And finally the SRS Power Cell (unique fuel) is used to help fuel your robots for long journeys across the Rimworld!
 
-# Mod dependencies
+## Mod dependencies
+
 - Harmony https://steamcommunity.com/workshop/filedetails/?id=2009463077
 - Humanoid Alien Races 2.0 https://steamcommunity.com/sharedfiles/filedetails/?id=839005762
 
-# Mod incompatibilities
+## Mod incompatibilities
 
 At the moment Rimsec Security is incompatible with Combat Extended however, we do plan on making it compatible with Rimsec Security.
 
-# Credits
+## Credits
+
 Shakesthespeare - Artwork  
 iforgotmysocks - Code  
 Stormtail - Sounds  
@@ -36,3 +40,8 @@ dpren (freesound.org) - HAAC Sound
 Breviceps (freedound.org) - Shag Sound  
 Badman - CE compatibility patch  
 Jecrell - CompOversizedWeapon.dll  
+
+## Building and Runnnings
+
+- use `FrameworkPathOverride=$(dirname $(which mono))/../lib/mono/4.7.2-api/ dotnet build /property:Configuration=Release` to run on linux
+  - If you arent on linux change RimWorldLinux_Data to the correct name for your platform.

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>RSPeacekeeperBackstoryChildDefender</defName>
+    <title>Defender</title>
+    <titleShort>Defender</titleShort>
+    <description>Mass produced and distributed on a galactic scale the Peacekeeper Defender is a common defence unit that is often used to protect commerce and military installations. Due to being, a low budget defence unit it lacks the sufficient power to operate for long periods of time making it only suitable for defensive purposes.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RSPeacekeeperBackstoryChildDefender</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <workDisables>
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Melee>9</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>RSPeacekeeperBackstoryChildEnforcer</defName>
+    <title>Enforcer</title>
+    <titleShort>Enforcer</titleShort>
+    <description>After the major success of the Defender, Saturn Robotics Systems introduced the Enforcer a highly advanced combat robot for more aggressive purposes thus allowing a higher battery capacity for longer engagements and operations.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RSPeacekeeperBackstoryChildEnforcer</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <workDisables>
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>12</Shooting>
+      <Melee>13</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>RSPeacekeeperBackstoryChildSentinel</defName>
+    <title>Sentinel</title>
+    <titleShort>Sentinel</titleShort>
+    <description>Although the Defender and Enforcer could be wielded in superior numbers, for many users it was costly to maintain such numbers due to staggeringly high casualties and expensive repairs for damaged units. Eventually, Saturn Robotics Systems developed the Sentinel a heavy-duty multipurpose siege robot that is equipped with Saturn Robotics Systems’ heavy assault gun designated as the Sentinel Heavy Assault Gun 1 (SHAG-1). Although it was more costly than the Defenders and Enforcers, the Sentinel is a common face among armies featuring SRS combat units due to its sheer firepower and advanced armour.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RSPeacekeeperBackstoryChildSentinel</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <workDisables>
+      <!--<li>Animals</li>
+      <li>Crafting</li>
+      <li>Cooking</li>
+      <li>Firefighting</li>
+      <li>Commoner</li>
+      <li>Hunting</li>
+
+      <li>PlantWork</li>
+      <li>Mining</li>
+      <li>Artistic</li>
+      <li>Cleaning</li>
+      <li>Intellectual</li>-->
+      <!--<li>ManualSkilled</li>-->
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>15</Shooting>
+      <Melee>14</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>RSPeacekeeperAdult1Backstory</defName>
+    <title>Old robot</title>
+    <titleShort>Old robot</titleShort>
+    <description>This particular unit has served for a long period of time beyond its peak lifespan and its systems have been damaged resulting in lower peak performance.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RSPeacekeeperAdult1Backstory</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <skillGains>
+      <Shooting>-3</Shooting>
+      <Melee>-3</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>

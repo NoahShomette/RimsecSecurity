@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LifeStageDef>
+		<defName>RSPeacekeeper</defName>
+		<label>Standard design</label>
+		<visible>false</visible>
+		<reproductive>false</reproductive>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>RSPeacekeeperDefender</defName>
+		<label>Standard design</label>
+		<visible>false</visible>
+		<reproductive>false</reproductive>
+		<silhouetteGraphicData>
+      		<texPath>Races/DefenderSilhouette</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<drawSize>1</drawSize>
+    	</silhouetteGraphicData>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>RSPeacekeeperSentinal</defName>
+		<label>Standard design</label>
+		<visible>false</visible>
+		<reproductive>false</reproductive>
+		<silhouetteGraphicData>
+      		<texPath>Races/SentinalSilhouette</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<drawSize>2</drawSize>
+    	</silhouetteGraphicData>	
+	</LifeStageDef>
+	
+
+	<LifeStageDef>
+		<defName>RSPeacekeeperEnforcer</defName>
+		<label>Standard design</label>
+		<visible>false</visible>
+		<reproductive>false</reproductive>
+		<silhouetteGraphicData>
+      		<texPath>Races/EnforcerSilhouette</texPath>
+      		<graphicClass>Graphic_Single</graphicClass>
+      		<drawSize>1</drawSize>
+    	</silhouetteGraphicData>	
+	</LifeStageDef>
+</Defs>
