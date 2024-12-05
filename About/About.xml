@@ -24,12 +24,35 @@
   </modDependencies>
   <packageId>NoahS.RimsecSecurityContinued</packageId>
 	<description>
-[Version 3.0.0]
+[h1] RimsecSecurityContinued [Version 3.1] [/h1]
 
-RimsecSecurityContinued is a continued version of RimsecSecurity while the original authors develop an updated and improved edition.
+RimsecSecurityContinued is a continued version of RimsecSecurity while the original authors develop an updated and improved edition. This may have minor bugs from the update so if something isn't working as expected please let me know. Everythings worked fine in my testing but I haven't extensively tested every bit of it.
+
+Please follow the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2323762086&searchtext=rimsec+security]original project [/url] for updates from the original authors on their new and improved version! 
+
+[h2] Requirements [/h2]
+
+- Humanoid Alien Races
+- Harmony
+
+[url=https://github.com/NoahShomette/RimsecSecurity]Github repo [/url]
+
+[h2] Credits [/h2]
+
+All credit goes to the original authors!
+
+- Shakesthespeare - Artist
+- Iforgotmysocks - Coder
+- Stormtail - Sounds
+- dpren (freesound.org) - HAAC Sound
+- Breviceps (freedound.org) - Shag Sound
+- Jecrell - OversizedWeaponComp.dll
+- Badman - CE compatibility patch
+
+[h2] Description [/h2]
     
-As of now Rimsec Security offers 3 robots, 3 guns, 3 turrets, 1 maintenance station, 1 assembly bench, 1 trade ship (SRS trade ship) and 1 unique component.
- 
+Rimsec Security offers 3 robots, 3 guns, 3 turrets, 1 maintenance station, 1 assembly bench, 1 trade ship (SRS trade ship) and 1 unique component.
+
 The 3 robots are the defender, enforcer and sentinel. The defender is a basic robot that has sufficient skills and power to defend a base and is not recommended for escorting caravans. The enforcer is a more advanced robot that has the sufficient skills and power for a more aggressive doctrine. Lastly, the Sentinel is an advanced heavy robot that is utilised in a supporting role featuring high health, battery capacity and is considered to be quite strong.
 All 3 robots come in 4 variants; security, desert, forest, winter with special traits and skill.
 

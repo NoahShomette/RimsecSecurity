@@ -160,6 +160,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Enforcer/Enforcer_Security/</head>
           <body>Races/Body/Enforcer/Enforcer_Security/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
           <!--<lifeStageDefs>
             <li>HumanlikeAdult</li>
           </lifeStageDefs>-->
@@ -187,6 +189,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Enforcer/Enforcer_Forest/</head>
           <body>Races/Body/Enforcer/Enforcer_Forest/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
           <!--<lifeStageDefs>
             <li>HumanlikeAdult</li>
           </lifeStageDefs>-->
@@ -214,6 +218,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Enforcer/Enforcer_Desert/</head>
           <body>Races/Body/Enforcer/Enforcer_Desert/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
           <!--<lifeStageDefs>
             <li>HumanlikeAdult</li>
           </lifeStageDefs>-->
@@ -241,6 +247,8 @@
       <graphicPaths>
           <head>Races/HeadNew/Enforcer/Enforcer_Winter/</head>
           <body>Races/Body/Enforcer/Enforcer_Winter/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>          
           <!--<lifeStageDefs>
             <li>HumanlikeAdult</li>
           </lifeStageDefs>-->

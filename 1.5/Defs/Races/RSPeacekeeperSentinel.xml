@@ -153,6 +153,8 @@
       <graphicPaths>
         <head>Races/HeadNew/Sentinel/Sentinel_Security/</head>
         <body>Races/Body/Sentinel/Sentinel_Security/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>
       </graphicPaths>
     </alienRace>
     <race>
@@ -176,6 +178,8 @@
       <graphicPaths>
         <head>Races/HeadNew/Sentinel/Sentinel_Forest/</head>
         <body>Races/Body/Sentinel/Sentinel_Forest/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>        
       </graphicPaths>
     </alienRace>
     <race>
@@ -199,6 +203,8 @@
       <graphicPaths>
         <head>Races/HeadNew/Sentinel/Sentinel_Desert/</head>
         <body>Races/Body/Sentinel/Sentinel_Desert/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>        
       </graphicPaths>
     </alienRace>
     <!--<size>(1,1)</size>-->
@@ -223,6 +229,8 @@
       <graphicPaths>
         <head>Races/HeadNew/Sentinel/Sentinel_Winter/</head>
         <body>Races/Body/Sentinel/Sentinel_Winter/</body>
+        <bodyMasks>Races/CompleteMask</bodyMasks>
+        <headMasks>Races/CompleteMask</headMasks>        
       </graphicPaths>
     </alienRace>
     <race>
