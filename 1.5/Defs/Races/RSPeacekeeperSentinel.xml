@@ -28,8 +28,6 @@
           <alienbodytypes>
             <li>Male</li>
           </alienbodytypes>-->
-          <!--<useGenderedHeads>false</useGenderedHeads>-->
-          <!--<useGenderedBodies>false</useGenderedBodies>-->
           <!--<customDrawSize>(2, 2)</customDrawSize>-->
           <customDrawSize>(1.8, 1.8)</customDrawSize>
           <!--<customHeadDrawSize>(1.8, 1.8)</customHeadDrawSize>-->
@@ -54,7 +52,7 @@
     <race>
       <lifeStageAges>
         <li>
-          <def>MechanoidFullyFormed</def>
+          <def>RSPeacekeeperSentinal</def>
           <minAge>0</minAge>
         </li>
       </lifeStageAges>

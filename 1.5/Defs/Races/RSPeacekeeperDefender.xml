@@ -64,7 +64,7 @@
     <race>
       <lifeStageAges>
         <li>
-          <def>MechanoidFullyFormed</def>
+          <def>RSPeacekeeperDefender</def>
           <minAge>0</minAge>
         </li>
       </lifeStageAges>
@@ -155,9 +155,6 @@
       <graphicPaths>
           <head>Races/HeadNew/Defender/Defender_Security/</head>
           <body>Races/Body/Defender/Defender_Security/</body>
-          <!--<lifeStageDefs>
-            <li>HumanlikeAdult</li>
-          </lifeStageDefs>-->
       </graphicPaths>
     </alienRace>
     <race>

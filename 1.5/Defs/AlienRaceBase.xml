@@ -17,7 +17,6 @@
         </validBeds>
         <minAgeForAdulthood>0</minAgeForAdulthood>
         <alienPartGenerator>
-          <!--<useGenderedHeads>false</useGenderedHeads>-->
           <headBodyPartDef>MechanicalHead</headBodyPartDef>
           <colorChannels>
             <li>
@@ -216,7 +215,7 @@
         </points>
       </litterSizeCurve>
       <lifeStageAges>
-        <li>
+        <li Class="AlienRace.LifeStageAgeAlien">
           <def>RSPeacekeeper</def>
           <minAge>0</minAge>
           <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
