@@ -20,7 +20,7 @@ namespace RimsecSecurity
 				validPawnKinds.TryRandomElementByWeight(new Func<PawnKindDef, float>(this.SelectionWeight), out var pawnKind);
 				var robot = PeacekeeperUtility.GeneratePeacekeeper(pawnKind, forTile);
 				if (robot == null) continue;
-				robot.SetFaction(Faction.OfMechanoids);
+				robot.SetFaction(Faction.OfEmpire);
                 var gun = ThingMaker.MakeThing(pawnKind.race.GetModExtension<RSPeacekeeperModExt>().gunDef) as ThingWithComps;
 				if (gun != null)
                 {
